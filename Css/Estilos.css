@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "EB Garamond", serif;
 }
 
 #nav {
@@ -20,11 +21,10 @@
   background-color: rgba(66, 192, 160, 0.926);
 }
 
-body main {
-  background-image: url(../Assets/Img/Estructura/Amuletos_fondo_opaci-50%.jpeg);
+body {
+  background-image: url(../Assets/Img/Estructura/Amuletos_fondo_opaci-50_.webp);
   background-repeat: repeat;
   background-size: 25%;
-  font-family: "EB Garamond", serif;
 }
 
 #separador {
@@ -37,7 +37,7 @@ body main {
 }
 
 #flush-collapseOne {
-  background-image: url(../Assets/Img/Estructura/Amuletos_fondo_opaci-50%.jpeg);
+  background-image: url(../Assets/Img/Estructura/Amuletos_fondo_opaci-50_.webp);
   background-repeat: repeat;
   background-size: 25%;
 }
