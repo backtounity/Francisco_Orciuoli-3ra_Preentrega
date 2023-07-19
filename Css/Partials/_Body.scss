@@ -10,7 +10,7 @@ body {
 
 #Acordion {
     font-size: 1.4rem;
-    background-color: rgb(66, 192, 161) ;
+    background-color: $secondaryColorFull;
 }
 
 #flush-collapseOne {
@@ -24,8 +24,22 @@ body {
     color: black;
 }
 
+#link_hover:hover{
+    color: $mainColorDark;
+}
+
+.Link_product{
+    font-size: 2rem;
+}
+
 .carousel-control-prev,
 .carousel-control-next, 
 .carousel-indicators  {
     display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .Link_product{
+        font-size: 1.7rem;
+    }
 }

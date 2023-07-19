@@ -3,11 +3,16 @@
 }
 
 #Nav_link_hover:hover {
-    color: $secondaryColorLight;
+    border: 2px solid $secondaryColorLight;
+    border-radius: 8px;
+    background-color: $secondaryColorFull;
 }
 
 #dropdown_link_hover:hover {
-    background-color: $mainColorOpacity ;
+    background-color: $mainColorOpacity;
+    color: $mainColorDark;
+    border: 2px solid $mainColorDark;
+    border-radius: 8px;
 }
 
 #color_dropdown {

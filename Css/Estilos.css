@@ -10,11 +10,16 @@
 }
 
 #Nav_link_hover:hover {
-  color: rgb(218, 189, 242);
+  border: 2px solid rgb(141, 234, 214);
+  border-radius: 8px;
+  background-color: rgb(66, 192, 160);
 }
 
 #dropdown_link_hover:hover {
   background-color: rgba(178, 132, 215, 0.949);
+  color: rgb(121, 48, 180);
+  border: 2px solid rgb(121, 48, 180);
+  border-radius: 8px;
 }
 
 #color_dropdown {
@@ -33,7 +38,7 @@ body {
 
 #Acordion {
   font-size: 1.4rem;
-  background-color: rgb(66, 192, 161);
+  background-color: rgb(66, 192, 160);
 }
 
 #flush-collapseOne {
@@ -47,12 +52,25 @@ body {
   color: black;
 }
 
+#link_hover:hover {
+  color: rgb(121, 48, 180);
+}
+
+.Link_product {
+  font-size: 2rem;
+}
+
 .carousel-control-prev,
 .carousel-control-next,
 .carousel-indicators {
   display: none;
 }
 
+@media screen and (max-width: 768px) {
+  .Link_product {
+    font-size: 1.7rem;
+  }
+}
 body footer {
   background-color: rgba(66, 192, 160, 0.926);
 }/*# sourceMappingURL=Estilos.css.map */
