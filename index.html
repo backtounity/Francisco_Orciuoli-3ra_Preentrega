@@ -5,9 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./Assets/Img/Estructura/favicon-16x16.png" type="image/x-icon">
-    <title>Gurdwara</title>
+    <title>Gurdwara - Inico</title>
+    <meta name="description"
+        content="Emprendimiento especializado en todo lo que necesitas para sentirte protegida. Los accesorios más lindos y mágicos y una gran selección de articulas de sahumado.">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <meta name="keywords"
+        content="Accesorios, sahumado, pulseras, collares, anillos, sahumerios, abundancia, protección, amor">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap" rel="stylesheet">
@@ -35,11 +40,13 @@
                             <a class="nav-link" id="Nav_link_hover" aria-current="page" href="./index.html">Inicio</a>
                         </li>
                         <li class="nav-item px-2 text-center">
-                            <a class="nav-link" id="Nav_link_hover" aria-current="page" href="https://www.gurdwaraaccesorios.com.ar/">Tienda
+                            <a class="nav-link" id="Nav_link_hover" aria-current="page"
+                                href="https://www.gurdwaraaccesorios.com.ar/">Tienda
                                 Online</a>
                         </li>
                         <li class="nav-item px-2 text-center">
-                            <a class="nav-link" id="Nav_link_hover" href="./Pages/Quienes_somos.html">¿Quienes Somos?</a>
+                            <a class="nav-link" id="Nav_link_hover" href="./Pages/Quienes_somos.html">¿Quienes
+                                Somos?</a>
                         </li>
                         <li class="nav-item px-2 text-center">
                             <a class="nav-link" id="Nav_link_hover" href="./Pages/Showroom.html">Showroom</a>
@@ -48,14 +55,17 @@
                             <a class="nav-link" id="Nav_link_hover" href="./Pages/Contacto.html">Contacto</a>
                         </li>
                         <li class="nav-item dropdown px-2 text-center">
-                            <a class="nav-link dropdown-toggle" id="Nav_link_hover" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" id="Nav_link_hover" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
                                 Productos según intención
                             </a>
                             <ul class="dropdown-menu text-center" id="color_dropdown">
-                                <li><a class="dropdown-item rounded-3" id="dropdown_link_hover"" href="./Pages/amor.html">Amor</a></li>
-                                <li><a class="dropdown-item rounded-3" id="dropdown_link_hover"" href="./Pages/abundancia.html">Abundancia</a></li>
-                                <li><a class="dropdown-item rounded-3" id="dropdown_link_hover"" href="./Pages/Protección.html">Protección</a></li>
+                                <li><a class="dropdown-item rounded-3" id="dropdown_link_hover"" href="
+                                        ./Pages/amor.html">Amor</a></li>
+                                <li><a class="dropdown-item rounded-3" id="dropdown_link_hover"" href="
+                                        ./Pages/abundancia.html">Abundancia</a></li>
+                                <li><a class="dropdown-item rounded-3" id="dropdown_link_hover"" href="
+                                        ./Pages/Protección.html">Protección</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -77,12 +87,14 @@
 
         <!-- Banner de bienvenida -->
 
-        <div class="row justify-content-center mt-2" >
+        <div class="row justify-content-center mt-2" data-aos="zoom-in" data-aos-easing="linear"
+            data-aos-duration="1000">
             <div class="card text-dark py-2">
-                <img src="./Assets/Img/Estructura/Cabecera.webp" class="card-img" alt="Imagen de caecera Index">
+                <img src="./Assets/Img/Estructura/Cabecera.webp" class="card-img border border-1"
+                    alt="Imagen de caecera Index">
                 <div class="card-img-overlay  d-flex align-items-center justify-content-center">
-                    <div class="d-inline-block px-1 bg-light bg-opacity-50 rounded-3">
-                        <div class="card-title fs-2">Bienvenidos a Gurdwara</div>
+                    <div class="d-inline-block px-1 bg-light bg-opacity-50 rounded-3 align-items-center">
+                        <p class="mb-0" id="Banner_font">Bienvenidas a Gurdwara</p>
                     </div>
                 </div>
             </div>
@@ -92,18 +104,21 @@
 
         <div class="row justify-content-center">
             <div class="col-10  m-3">
-                <div class="accordion accordion-flush border border-secondary border-1 rounded-3" id="accordionFlushExample">
+                <div class="accordion accordion-flush border border-secondary border-1 rounded-3"
+                    id="accordionFlushExample">
                     <div class="accordion-item border border-secondary border-1 rounded-3">
                         <h2 class="accordion-header">
-                            <button class="accordion-button collapsed rounded-3 text-center" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                            <button class="accordion-button collapsed rounded-3 text-center" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
                                 aria-controls="flush-collapseOne" id="Acordion">
                                 Te proponemos una nueva forma de encontrar lo que necesitas... Descubrila
                             </button>
                         </h2>
-                        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body text-center">En esta página en vez de encontrar los productos
-                                ordenados por tipo, los vas a encontrar por el tipo de energia que trabajan. Así una vez que sepas que
+                                ordenados por tipo, los vas a encontrar por el tipo de energia que trabajan. Así una vez
+                                que sepas que
                                 necesitas trabajar vas directo a lo que estas buscando y encontras nuestras magias
                                 listas para que las disfrutes.</div>
                         </div>
@@ -480,8 +495,8 @@
         <!--  Iconos de whatsapp e Instagram Fixed -->
 
         <div class="fixed-bottom d-flex justify-content-between">
-            <a class="p-3 d-md-none" href="#"><img src="./Assets/Img/Estructura/whatsapp.svg"
-                    alt="Logo de whatsapp" height="50px"></a>
+            <a class="p-3 d-md-none" href="#"><img src="./Assets/Img/Estructura/whatsapp.svg" alt="Logo de whatsapp"
+                    height="50px"></a>
             <a class="p-3 d-md-none" href="https://www.instagram.com/gurdwara.accesorios/"><img
                     src="./Assets/Img/Estructura/instagram.svg" alt="Logo de instagram" height="50px"></a>
         </div>
@@ -510,6 +525,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

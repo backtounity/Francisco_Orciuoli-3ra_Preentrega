@@ -6,7 +6,7 @@
 }
 
 #nav {
-  background-color: rgba(178, 132, 215, 0.949);
+  background: radial-gradient(circle, rgb(66, 192, 160) 0%, rgb(178, 132, 215) 100%);
 }
 
 #Nav_link_hover:hover {
@@ -32,13 +32,21 @@ body {
   background-size: 25%;
 }
 
+.background_gradient {
+  background: linear-gradient(90deg, rgb(178, 132, 215) 0%, rgb(66, 192, 160) 50%, rgb(178, 132, 215) 100%);
+}
+
+#Banner_font {
+  font-size: 4rem;
+}
+
 #separador {
   height: 45px;
 }
 
 #Acordion {
   font-size: 1.4rem;
-  background-color: rgb(66, 192, 160);
+  background: radial-gradient(circle, rgb(66, 192, 160) 0%, rgb(178, 132, 215) 100%);
 }
 
 #flush-collapseOne {
@@ -70,7 +78,39 @@ body {
   .Link_product {
     font-size: 1.7rem;
   }
+  #Banner_font {
+    font-size: 2rem;
+    margin-bottom: 1px;
+  }
 }
+body main form {
+  height: 66vh;
+  overflow-y: scroll;
+  background-color: rgba(141, 234, 214, 0.573);
+  border: 3px solid rgb(211, 173, 241);
+  font-size: 1.3rem;
+}
+body main form div {
+  margin: 10px;
+}
+body main form div section {
+  margin: 5px;
+}
+body main form div section div label {
+  margin-right: 5px;
+}
+body main form div section div input {
+  border-radius: 5px;
+}
+body main form div section div textarea {
+  border-radius: 5px;
+  border: 1px solid black;
+}
+body main form div section div select {
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
 body footer {
-  background-color: rgba(66, 192, 160, 0.926);
+  background: radial-gradient(circle, rgb(66, 192, 160) 0%, rgb(178, 132, 215) 100%);
 }/*# sourceMappingURL=Estilos.css.map */

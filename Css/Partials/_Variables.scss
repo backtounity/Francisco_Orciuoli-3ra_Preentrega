@@ -5,4 +5,7 @@ $mainColorDark: rgb(121, 48, 180);
 $secondaryColorOpacity: rgba(66, 192, 160, 0.926);
 $secondaryColorFull: rgba(66, 192, 160);
 $secondaryColorLight: rgb(141, 234, 214);
+$secondaryColorLightOpacity: rgba(141, 234, 214, 0.573);
 $secondaryColorDark: rgb(0, 134, 101);
+$radialGradient: radial-gradient(circle, rgba(66,192,160,1) 0%, rgba(178,132,215,1) 100%);
+$linearGradient: linear-gradient(90deg, rgba(178,132,215,1) 0%, rgba(66,192,160,1) 50%, rgba(178,132,215,1) 100%);

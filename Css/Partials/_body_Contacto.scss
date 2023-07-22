@@ -1,0 +1,40 @@
+body {
+    main {
+        form {
+            height: 66vh;
+            overflow-y: scroll;
+            background-color: $secondaryColorLightOpacity;
+            border: 3px solid $mainColorLight;
+            font-size: 1.3rem;
+            
+
+            div {
+                margin: 10px;
+
+                section {
+                    margin: 5px;
+
+
+                    div {
+                        label {
+                            margin-right: 5px;
+                        }
+                        input {
+                            border-radius: 5px;
+                        }
+
+                        textarea {
+                            border-radius: 5px;
+                            border: 1px solid black;
+                        }
+
+                        select {
+                            border-radius: 5px;
+                            border: 1px solid black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
