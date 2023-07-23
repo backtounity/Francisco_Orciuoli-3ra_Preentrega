@@ -80,7 +80,6 @@ body {
   }
   #Banner_font {
     font-size: 2rem;
-    margin-bottom: 1px;
   }
 }
 body main form {
@@ -101,14 +100,26 @@ body main form div section div label {
 }
 body main form div section div input {
   border-radius: 5px;
+  padding-left: 5px;
+}
+body main form div section div input:focus {
+  background: rgb(211, 173, 241);
 }
 body main form div section div textarea {
   border-radius: 5px;
   border: 1px solid black;
+  padding-left: 5px;
+}
+body main form div section div textarea:focus {
+  background: rgb(211, 173, 241);
 }
 body main form div section div select {
   border-radius: 5px;
   border: 1px solid black;
+  padding-left: 5px;
+}
+body main form div section div select:focus {
+  background: rgb(211, 173, 241);
 }
 
 body footer {

@@ -21,16 +21,31 @@ body {
                         }
                         input {
                             border-radius: 5px;
+                            padding-left: 5px;
+                        }
+
+                        input:focus {
+                            background: $mainColorLight;
                         }
 
                         textarea {
                             border-radius: 5px;
                             border: 1px solid black;
+                            padding-left: 5px;
+                        }
+
+                        textarea:focus {
+                            background: $mainColorLight;
                         }
 
                         select {
                             border-radius: 5px;
                             border: 1px solid black;
+                            padding-left: 5px;
+                        }
+
+                        select:focus {
+                            background: $mainColorLight;
                         }
                     }
                 }
