@@ -8,10 +8,19 @@
     background-color: $secondaryColorFull;
 }
 
+#Nav_link_hover{
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 8px;
+}
+
 #dropdown_link_hover:hover {
     background-color: $mainColorOpacity;
-    color: $mainColorDark;
     border: 2px solid $mainColorDark;
+    border-radius: 8px;
+}
+
+#dropdown_link_hover {
+    border: 2px solid rgba(255, 255, 255, 0);
     border-radius: 8px;
 }
 

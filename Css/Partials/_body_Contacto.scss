@@ -1,53 +1,42 @@
 body {
     main {
         form {
-            height: 66vh;
-            overflow-y: scroll;
+            overflow: scroll;
             background-color: $secondaryColorLightOpacity;
             border: 3px solid $mainColorLight;
             font-size: 1.3rem;
-            
 
-            div {
+
+            section {
                 margin: 10px;
 
-                section {
-                    margin: 5px;
+                div {
+                    margin: 8px;
 
-
-                    div {
-                        label {
-                            margin-right: 5px;
-                        }
-                        input {
-                            border-radius: 5px;
-                            padding-left: 5px;
-                        }
-
-                        input:focus {
-                            background: $mainColorLight;
-                        }
-
-                        textarea {
-                            border-radius: 5px;
-                            border: 1px solid black;
-                            padding-left: 5px;
-                        }
-
-                        textarea:focus {
-                            background: $mainColorLight;
-                        }
-
-                        select {
-                            border-radius: 5px;
-                            border: 1px solid black;
-                            padding-left: 5px;
-                        }
-
-                        select:focus {
-                            background: $mainColorLight;
-                        }
+                    label {
+                        margin-right: 5px;
                     }
+
+                    input {
+                        border-radius: 5px;
+                        border: 2px ridge black;
+                        padding-left: 5px;
+                    }
+
+                    input:focus {
+                        background: $mainColorLight;
+                    }
+
+                    textarea {
+                        border-radius: 5px;
+                        border: 2px ridge black;
+                        padding-left: 5px;
+                    }
+
+                    textarea:focus {
+                        background: $mainColorLight;
+                    }
+
                 }
             }
         }

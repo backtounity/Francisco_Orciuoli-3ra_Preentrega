@@ -85,102 +85,66 @@
         </div>
 
 
-        <form class="rounded-3 p-1 m-2 conteiner-fluid" method="get">
+        <form class="rounded-3 p-1 m-3 conteiner-fluid" method="get">
 
 
             <p class="fs-1 text-center ">Formulario de contacto</p>
 
-            <div class="m-2 row d-flex justify-content-evenly">
-                <section class="col-12 col-lg-5 text-center text-lg-start">
-                    <div>
-                        <label for="nombre">Nombre:</label>
-                        <input type="text" name="" id="nombre">
-                    </div>
-                    <div>
-                        <label for="edad">Edad:</label>
-                        <input type="number" name="" id="edad">
-                    </div>
-                    <div>
-                        <label for="domicilio">Domicilio:</label>
-                        <input type="text" name="" id="domicilio">
-                    </div>
-                    <div>
-                        <label for="localidad">Localidad:</label>
-                        <input type="text" name="" id="localidad">
-                    </div>
-                    <div>
-                        <label for="provincia">Provincia:</label>
-                        <select name="provincia" id="provincia">
-                            <option value="Capital Federal">Capital Federal</option>
-                            <option value="Amba">Gran Buenos Aires</option>
-                            <option value="Buenos Aires" selected="">Buenos Aires</option>
-                            <option value="Catamarca">Catamarca</option>
-                            <option value="Chaco">Chaco</option>
-                            <option value="Chubut">Chubut</option>
-                            <option value="Cordoba">Cordoba</option>
-                            <option value="Corrientes">Corrientes</option>
-                            <option value="Entre Rios">Entre Rios</option>
-                            <option value="Formosa">Formosa</option>
-                            <option value="Jujuy">Jujuy</option>
-                            <option value="La Pampa">La Pampa</option>
-                            <option value="La Rioja">La Rioja</option>
-                            <option value="Mendoza">Mendoza</option>
-                            <option value="Misiones">Misiones</option>
-                            <option value="Neuquen">Neuquen</option>
-                            <option value="Rio Negro">Rio Negro</option>
-                            <option value="Salta">Salta</option>
-                            <option value="San Juan">San Juan</option>
-                            <option value="San Luis">San Luis</option>
-                            <option value="Santa Cruz">Santa Cruz</option>
-                            <option value="Santa Fe">Santa Fe</option>
-                            <option value="Sgo. del Estero">Sgo. del Estero</option>
-                            <option value="Tierra del Fuego">Tierra del Fuego</option>
-                            <option value="Tucuman">Tucuman</option>
-                        </select>
-                    </div>
-                    <div>
-                        <label class="" for="tel">Teléfono:</label>
-                        <input type="tel" name="" id="tel">
-                    </div>
-                    <div>
-                        <label for="email">Email:</label>
-                        <input type="email" name="" id="email">
-                    </div>
-                </section>
-                <section class="col-12 col-lg-5 text-center text-lg-start mt-2">
-                    <div class="d-flex justify-content-center">
-                        <label class="me-2" for="asunto">Asunto:</label>
-                        <textarea name="" id="asunto" cols="30" rows="1"></textarea>
-                    </div>
-                    <div class="d-flex align-items-start justify-content-center">
-                        <label class="me-2" for="comentario">Mensaje:</label>
-                        <textarea name="" id="comentario" cols="30" rows="7"></textarea>
-                    </div>
-                </section>
 
-                <section class="row d-flex justify-content-center">
-                    <div class="col-10 text-center">
-                        <input class="py-1 px-2 mx-2" id="Nav_link_hover" id="enviar" type="submit" value="Enviar">
-                        <input class="py-1 px-2 mx-2" id="Nav_link_hover" id="reset" type="reset" value="Borrar">
+            <section class="row justify-content-center">
+
+                <div class="col-10 text-center">
+                    <label for="nombre">Nombre:</label>
+                    <input class="ps-2" type="text" name="Nombre" id="nombre">
+                </div>
+                <div class="col-10 text-center">
+                    <label class="" for="tel">Teléfono:</label>
+                    <input class="ps-2" type="tel" name="Telefono" id="tel">
+                </div>
+                <div class="col-10 text-center">
+                    <label class="me-4" for="email">Email:</label>
+                    <input class="ps-2" type="email" name="Email" id="email">
+                </div>
+                <div class="col-10">
+                    <div class="d-flex flex-wrap align-items-start justify-content-center">
+                        <label class="me-3" for="asunto">Asunto:</label>
+                        <textarea class="ps-2" name="" id="asunto" cols="25" rows="1"></textarea>
                     </div>
-                </section>
-
-
-                <!--  Iconos de whatsapp e Instagram Fixed   -->
-
-                <div class="fixed-bottom d-flex justify-content-between">
-                    <a class="p-3 d-md-none" href="#"><img src="../Assets/Img/Estructura/whatsapp.svg"
-                            alt="Logo de whatsapp" height="50px"></a>
-                    <a class="p-3 d-md-none" href="https://www.instagram.com/gurdwara.accesorios/"><img
-                            src="../Assets/Img/Estructura/instagram.svg" alt="Logo de instagram" height="50px"></a>
+                </div>
+                <div class="col-10">
+                    <div class="d-flex flex-wrap align-items-start justify-content-center">
+                        <label class="me-3" for="comentario">Mensaje:</label>
+                        <textarea class="rounded-3 ps-2" name="" id="comentario" cols="25" rows="3"></textarea>
+                    </div>
                 </div>
 
-                <div class="fixed-bottom d-flex justify-content-between">
-                    <a class="p-4 mx-2 d-none d-md-block" href="#"><img src="../Assets/Img/Estructura/whatsapp.svg"
-                            alt="Logo de whatsapp" height="100px"></a>
-                    <a class="p-4 mx-2 d-none d-md-block" href="https://www.instagram.com/gurdwara.accesorios/"><img
-                            src="../Assets/Img/Estructura/instagram.svg" alt="Logo de instagram" height="100px"></a>
+            </section>
+
+            <section class="row d-flex justify-content-center">
+                <div class="col-10 text-center">
+                    <input class="py-1 px-2 mx-2" id="Nav_link_hover" id="enviar" type="submit" value="Enviar">
+                    <input class="py-1 px-2 mx-2" id="Nav_link_hover" id="reset" type="reset" value="Borrar">
                 </div>
+            </section>
+            </div>
+
+
+            <!--  Iconos de whatsapp e Instagram Fixed   -->
+
+            <div class="fixed-bottom d-flex justify-content-between">
+                <a class="p-3 d-md-none" href="#"><img src="../Assets/Img/Estructura/whatsapp.svg"
+                        alt="Logo de whatsapp" height="50px"></a>
+                <a class="p-3 d-md-none" href="https://www.instagram.com/gurdwara.accesorios/"><img
+                        src="../Assets/Img/Estructura/instagram.svg" alt="Logo de instagram" height="50px"></a>
+            </div>
+
+            <div class="fixed-bottom d-flex justify-content-between">
+                <a class="p-4 mx-2 d-none d-md-block" href="#"><img src="../Assets/Img/Estructura/whatsapp.svg"
+                        alt="Logo de whatsapp" height="100px"></a>
+                <a class="p-4 mx-2 d-none d-md-block" href="https://www.instagram.com/gurdwara.accesorios/"><img
+                        src="../Assets/Img/Estructura/instagram.svg" alt="Logo de instagram" height="100px"></a>
+            </div>
+
 
     </main>
     <!--  Footer  -->

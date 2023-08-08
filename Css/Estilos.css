@@ -15,10 +15,19 @@
   background-color: rgb(66, 192, 160);
 }
 
+#Nav_link_hover {
+  border: 2px solid rgba(255, 255, 255, 0);
+  border-radius: 8px;
+}
+
 #dropdown_link_hover:hover {
   background-color: rgba(178, 132, 215, 0.949);
-  color: rgb(121, 48, 180);
   border: 2px solid rgb(121, 48, 180);
+  border-radius: 8px;
+}
+
+#dropdown_link_hover {
+  border: 2px solid rgba(255, 255, 255, 0);
   border-radius: 8px;
 }
 
@@ -83,42 +92,34 @@ body {
   }
 }
 body main form {
-  height: 66vh;
-  overflow-y: scroll;
+  overflow: scroll;
   background-color: rgba(141, 234, 214, 0.573);
   border: 3px solid rgb(211, 173, 241);
   font-size: 1.3rem;
 }
-body main form div {
+body main form section {
   margin: 10px;
 }
-body main form div section {
-  margin: 5px;
+body main form section div {
+  margin: 8px;
 }
-body main form div section div label {
+body main form section div label {
   margin-right: 5px;
 }
-body main form div section div input {
+body main form section div input {
   border-radius: 5px;
+  border: 2px ridge black;
   padding-left: 5px;
 }
-body main form div section div input:focus {
+body main form section div input:focus {
   background: rgb(211, 173, 241);
 }
-body main form div section div textarea {
+body main form section div textarea {
   border-radius: 5px;
-  border: 1px solid black;
+  border: 2px ridge black;
   padding-left: 5px;
 }
-body main form div section div textarea:focus {
-  background: rgb(211, 173, 241);
-}
-body main form div section div select {
-  border-radius: 5px;
-  border: 1px solid black;
-  padding-left: 5px;
-}
-body main form div section div select:focus {
+body main form section div textarea:focus {
   background: rgb(211, 173, 241);
 }
 
