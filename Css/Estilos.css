@@ -92,7 +92,6 @@ body {
   }
 }
 body main form {
-  overflow: scroll;
   background-color: rgba(141, 234, 214, 0.573);
   border: 3px solid rgb(211, 173, 241);
   font-size: 1.3rem;
