@@ -1,46 +1,51 @@
-
-
 body {
     main {
-        form {
-            
-            background-color: $secondaryColorLightOpacity;
-            border: 3px solid $mainColorLight;
-            font-size: 1.3rem;
+        div {
+
+            form {
+
+                background-color: $secondaryColorLightOpacity;
+                border: 3px solid $mainColorLight;
+                font-size: 1.3rem;
 
 
-            section {
-                margin: 10px;
+                section {
+                    margin: 10px;
 
-                div {
-                    margin: 8px;
+                    div {
+                        margin: 8px;
 
-                    label {
-                        margin-right: 5px;
+                        label {
+                            margin-right: 5px;
+                        }
+
+                        input {
+                            border-radius: 5px;
+                            border: 2px ridge black;
+                            padding-left: 5px;
+                        }
+
+                        input:focus {
+                            background: $mainColorLight;
+                        }
+
+                        textarea {
+                            border-radius: 5px;
+                            border: 2px ridge black;
+                            padding-left: 5px;
+                        }
+
+                        textarea:focus {
+                            background: $mainColorLight;
+                        }
+
                     }
-
-                    input {
-                        border-radius: 5px;
-                        border: 2px ridge black;
-                        padding-left: 5px;
-                    }
-
-                    input:focus {
-                        background: $mainColorLight;
-                    }
-
-                    textarea {
-                        border-radius: 5px;
-                        border: 2px ridge black;
-                        padding-left: 5px;
-                    }
-
-                    textarea:focus {
-                        background: $mainColorLight;
-                    }
-
                 }
             }
         }
     }
+}
+
+#contacto_cards {
+    border: 3px solid $mainColorLight;
 }

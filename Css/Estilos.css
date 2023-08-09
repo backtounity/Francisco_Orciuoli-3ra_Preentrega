@@ -91,35 +91,39 @@ body {
     font-size: 2rem;
   }
 }
-body main form {
+body main div form {
   background-color: rgba(141, 234, 214, 0.573);
   border: 3px solid rgb(211, 173, 241);
   font-size: 1.3rem;
 }
-body main form section {
+body main div form section {
   margin: 10px;
 }
-body main form section div {
+body main div form section div {
   margin: 8px;
 }
-body main form section div label {
+body main div form section div label {
   margin-right: 5px;
 }
-body main form section div input {
+body main div form section div input {
   border-radius: 5px;
   border: 2px ridge black;
   padding-left: 5px;
 }
-body main form section div input:focus {
+body main div form section div input:focus {
   background: rgb(211, 173, 241);
 }
-body main form section div textarea {
+body main div form section div textarea {
   border-radius: 5px;
   border: 2px ridge black;
   padding-left: 5px;
 }
-body main form section div textarea:focus {
+body main div form section div textarea:focus {
   background: rgb(211, 173, 241);
+}
+
+#contacto_cards {
+  border: 3px solid rgb(211, 173, 241);
 }
 
 body footer {
